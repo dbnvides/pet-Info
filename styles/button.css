@@ -1,0 +1,140 @@
+.btn-default {
+    height: 38px;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    border-radius: 4px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-size-text1);
+    line-height: 150%;
+    color: var(--gray900);
+}
+
+.btn-default:hover {
+    background-color: var(--brand200);
+    border: 1px solid var(--brand200);
+    cursor: pointer;
+}
+
+.btn-register {
+    background-color: var(--gray900);
+    color: var(--gray100);
+    border: 2px solid var(--gray600);
+    border-radius: 4px;
+}
+
+.btn-register:hover {
+    background-color: var(--gray800);
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+
+.btn-back-to-login {
+    padding: 5px 8px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid var(--gray600);
+    font-size: var(--font-size-alert);
+    color: var(--gray100);
+    background-color: var(--gray900);
+    text-decoration: none;
+}
+
+.btn-back-to-login:hover {
+    background-color: var(--gray800);
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+}
+
+.btn-open-modal {
+    padding: 0px 16px;
+    background: var(--brand100);
+   
+}
+
+.btn-open-modal:hover{
+    cursor: pointer;
+}
+
+.btn-modal {
+    background-color: var(--gray800);
+    padding: 0px 8px;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    height: 32px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+
+.btn-modal-on {
+    cursor: pointer;
+}
+
+.btn-open-modal-post {
+    text-decoration: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--brand100);
+    cursor: pointer;
+}
+
+.btn-post-default{
+    padding: 7px 20px;
+}
+
+.btn-cancel{
+    background-color: var(--gray600);
+    border: 1px solid var(--gray600);
+    color: var(--gray400);
+}
+
+.btn-cancel:hover{
+    color: var(--gray100);
+    background-color: var(--gray600);
+    border: 1px solid var(--gray600);
+}
+
+.btn-post-delete{
+    margin-left: 10px;
+    background-color: var(--alert100);
+    border: 1px solid var(--alert100);
+}
+
+.btn-post-delete:hover{
+    background-color: var(--alert200);
+    border: 1px solid var(--alert100);
+}
+
+.button-desable{
+    background-color: var(--brand200);
+    color: var(--gray400);
+}
+
+.button-desable:hover{
+    cursor: auto;
+}
+
+.btn-user-spinner {
+    height: 38px;
+    cursor: pointer;
+}
+
+.btn-user-spinner>img {
+    animation: spinnerAnimator 3s linear;
+}
+
+.btn-open-modal-not-user{
+    background-color: var(--gray600);
+    border: 1px solid var(--gray600);
+    color: var(--gray400);
+    cursor: auto;
+}

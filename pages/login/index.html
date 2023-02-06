@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/input.css">
+    <link rel="stylesheet" href="../../styles/button.css">
+    <link rel="stylesheet" href="../../styles/toast.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="../../styles/animation.css">
+    <title>Petinfo - Login</title>
+</head>
+
+<body>
+    <main class="container">
+        <section class="sec-slogan">
+            <h2 class="title1">Petinfo</h2>
+            <h2 class="title1"><span class="color-text">Amor</span> e <span class="color-text">carinho</span> por meio
+                do conhecimento</h2>
+
+            <p class="text1">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+            <div class="box-pets">
+                <div class="box-pet-img1">
+                    <div class="box-pet-img2">
+                        <img src="../assests/Cat1.svg" alt="">
+                        <img src="../assests/Dog1.svg" alt="">
+                    </div>
+                    <img src="../assests/Dog2.svg" alt="">
+                </div>
+                <img src="../assests/Cat2.svg" alt="">
+            </div>
+
+        </section>
+
+        <section class="sec-login">
+            <div class="box-login">
+                <form class="form-login">
+                    <h2>Login</h2>
+
+                    <div class="form-user">
+                        <label for="">Usuário</label>
+                        <input type="email" class="input-default" id="email" placeholder="Digite seu usuário aqui">
+                    </div>
+
+                    <div class="form-password">
+                        <label for="">Senha</label>
+                        <input type="password" class="input-default" id="password" placeholder="Digite sua senha aqui">
+                        <p class="text-alert">A senha está incorreta</p>
+                    </div>
+
+                    <button type="submit" class="btn-login btn-default button-desable">Acessar</button>
+                </form>
+
+                <div class="box-description-text">
+                    <p class="text1"><b>Ainda não possui conta?</b></p>
+
+                    <p>Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+                </div>
+
+                <button class="btn-default btn-register" id="btn-go-register">Cadastrar</button>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

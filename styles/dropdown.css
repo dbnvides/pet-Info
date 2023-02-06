@@ -1,0 +1,51 @@
+.menu-dropdown{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-size-alert);
+    font-weight: 500;
+    position: relative;
+}
+
+.menu-dropdown>li{
+    position: absolute;
+    top: 41px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--gray800);
+    height: 90px;
+    width: 170px;
+    display: none;
+}
+
+.box-name-user{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 50%;   
+}
+
+.box-out-account{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-image: url('../pages/assests/sign-out-alt.svg');
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    height: 50%;
+    color: var(--gray400);
+    border-radius: 0 0 4px 4px;
+}
+
+.p-out-text{
+    margin-left: 30px;
+}
+
+.box-out-account:hover{
+    background-color: var(--gray600);
+    background-image: url('../pages/assests/sign-out-alt-hover.svg');
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    color: var(--gray100);
+    cursor: pointer;
+}

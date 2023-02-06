@@ -1,0 +1,25 @@
+.input-default {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 16px;
+    height: 44px;
+    background-color: var(--gray800);
+    border: 1px solid var(--gray600);
+    border-radius: 4px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-size-text1);
+    line-height: 150%;
+    color: var(--gray400);
+}
+
+.input-default:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.input-incor {
+    border-color: var(--alert100);
+    outline-color: var(--alert100);
+}
